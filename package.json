@@ -1,6 +1,6 @@
 {
   "name": "@multipart/test-form-data",
-  "version": "0.0.0-pre",
+  "version": "1.0.0",
   "description": "Data For Testing Multipart/Form-Data Algorithms.",
   "main": "build/index.js",
   "module": "src/index.js",

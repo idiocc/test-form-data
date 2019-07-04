@@ -1,9 +1,8 @@
-/* alanode example/ */
-import testFormData from '../src'
+import { updateStore } from '../src'
 
-(async () => {
-  const res = await testFormData({
-    text: 'example',
-  })
-  console.log(res)
-})()
+const hello = []
+hello[2] = 'test'
+
+const store = { hello }
+updateStore(store)
+console.log(store)

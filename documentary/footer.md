@@ -4,8 +4,10 @@
 
 ## Copyright
 
-(c) [Idio][1] 2019
+Original data by [Linus Unnebäck](https://github.com/LinusU/testdata-w3c-json-form).
 
-[1]: https://idio.cc
+---
+
+<idio-footer />
 
 %~ -1%

@@ -1,23 +1,29 @@
 ## API
 
-The package is available by importing its default function:
+The package is available by importing its named function, and by referencing the mask result file:
 
 ```js
-import testFormData from '@multipart/test-form-data'
+import makeTestSuite from '@zoroaster/mask'
+import { updateStore } from '@multipart/test-form-data'
+
+export default makeTestSuite('node_modules/@multipart/test-form-data', {
+  getResults() {
+    // ... must return the store for comparison
+  }
+})
 ```
+
+%EXAMPLE default.md%
 
 %~%
 
-```## testFormData
+```## updateStore
 [
-  ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["store", "Object"]
 ]
 ```
 
-Call this function to get the result you want.
-
-%TYPEDEF types/index.xml%
+Updates the store to make `undefined` in sparse arrays appear as nulls for `deepStrictEqual` comparison.
 
 %EXAMPLE: example, ../src => @multipart/test-form-data%
 %FORK example%

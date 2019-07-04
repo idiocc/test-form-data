@@ -13,7 +13,7 @@ export default makeTestSuite('node_modules/@multipart/test-form-data', {
 })
 ```
 
-%EXAMPLE default.md%
+%EXAMPLE: default.md%
 
 %~%
 

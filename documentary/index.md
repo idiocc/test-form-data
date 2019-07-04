@@ -2,10 +2,10 @@
 
 %NPM: @multipart/test-form-data%
 
-`@multipart/test-form-data` is Data For Testing Multipart/Form-Data Algorithms.
+`@multipart/test-form-data` is Data For Testing Multipart/Form-Data Algorithms Written As [Zoroaster Mask](https://contexttesting.com).
 
 ```sh
-yarn add @multipart/test-form-data
+yarn add -D @multipart/test-form-data
 ```
 
 ## Table Of Contents
